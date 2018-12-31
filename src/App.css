@@ -1,8 +1,6 @@
 .App {
   height: auto;
   font-family: 'Courier New', Courier, monospace;
-  /* background-image: url('Lax.jpg');
-  background-size: cover; */
 }
 .sideBar {
   border: 2px solid black;
@@ -21,4 +19,31 @@ html, body, #root, .App, .component {
 }
 a {
   text-decoration: none;
+}
+/* ------------------------------------------ Calculator -------------------------------------------- */
+.result {
+  height: 60px;
+  background-color: orange;
+  width: 100%;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+/* result print font */
+.result p {
+  font-size: 40px;
+  margin: 5px;
+}
+.calculator-main {
+  max-width: 400px;
+  margin: auto;
+}
+.button {
+  display: block;
+  background-color: #bbb;
+}
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+  border: 1px solid black;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
